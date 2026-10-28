@@ -78,7 +78,7 @@ def operacao_matematica(state: GraphState) -> dict:
         resultado = x + y
     elif operador in ("-", "menos"):
         resultado = x - y
-    elif operador in ("*", "vezes", "multiplicado por"):
+    elif operador in ("*", "vezes", "multiplicado por", 'x'):
         resultado = x * y
     elif operador in ("/", "dividido por"):
         if y == 0:
